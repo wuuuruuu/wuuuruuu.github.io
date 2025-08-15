@@ -2990,15 +2990,14 @@ input, select, textarea {
 
 		.spotlight .image {
 			display: inline-block;
-			margin-left: 4em;
+			margin-left: 1em;
 			padding: 0.65em;
-			border-radius: 100%;
-			border: solid 1px;
+			border-radius: 15px;
 		}
 
 			.spotlight .image img {
 				display: block;
-				border-radius: 100%;
+				border-radius: 15px;
 				width: 16em;
 			}
 
@@ -3634,7 +3633,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#main > .main {
-				padding: 0.5em 1.5em 1em 1.5em ;
+				padding: 1.5em 1.5em 0em 1.5em ;
 			}
 
 				#main > .main > .image.main:first-child {
