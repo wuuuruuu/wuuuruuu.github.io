@@ -1,95 +1,91 @@
-<!DOCTYPE HTML>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>Kuang-Ru Wu</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-	<meta name="google-site-verification" content="6KHbFuCgMELHrTQ2SuK5blyDVeWSsU3UF_Y4hwWNad0" />
-	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" />
-	</noscript>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuang-Ru Wu</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+<body>
+    <div class="min-h-screen">
+        <header class="header">
+            <div class="container">
+                <h1 class="name">Kuang-Ru Wu</h1>
+                <p class="email">wuuuruuu@gmail.com</p>
+            </div>
+        </header>
 
-<body class="is-preload">
-	<div id="wrapper">
-		<header id="header" class="major">
-			<h1>Kuang-Ru Wu</h1>
-			<h3>wuuuruuu@gmail.com</h3>
-		</header>
-		<nav id="nav">
-			<ul>
-				<li><a href="#1st" class="active">About Me</a></li>
-				<li><a href="#2nd">Publications and Preprints</a></li>
-				<!-- <li><a href="#3rd">Current Teaching</a></li> -->
-				<li><a href="./cv (2025 Jan).pdf" target="_blank">CV</a></li>
-			</ul>
-		</nav>
+        <!-- Navigation bar hidden on mobile -->
+        <nav class="nav" id="nav">
+            <div class="container">
+                <div class="nav-links">
+                    <button class="nav-button active" data-section="about">About Me</button>
+                    <button class="nav-button" data-section="publications">Publications</button>
+                    <button class="nav-button" data-section="talks">Invited Talks</button>
+                    <button class="nav-button" data-section="cv" onclick="window.open('cv 2025 Aug.pdf', '_blank')">CV</button>
+                </div>
+            </div>
+        </nav>
 
-		<div id="main">
-			<!-- About Me -->
-			<section id="1st" class="main">
-				<div class="spotlight">
-					<div class="content">
-						<header class="major">
-							<h2>About Me</h2>
-						</header>
-						<p>I am interested in complex analysis, complex geometry, and partial differential equations.
-							I received my Ph.D. degree from <a class="reference-link"
-								href="https://www.math.purdue.edu/">Purdue University</a> under the supervision of <a
-								class="reference-link" href="https://www.math.purdue.edu/~lempert/">László Lempert</a>.
-							I was a postdoc at <a class="reference-link" href="https://www.math.sinica.edu.tw/">Academia
-								Sinica</a> and then a visiting assistant professor at <a class="reference-link"
-								href="https://www.math.nthu.edu.tw/">National Tsing Hua University</a>.
-							From August to December 2025, I will be a postdoc at the <a class="reference-link"
-								href="https://erdoscenter.renyi.hu/">Erdős Center</a> in Budapest.
-							I am currently on the job market.
-						</p>
-					</div>
-					<span class="image"><img src="images/media.jpg" width="250" alt="Kuang-Ru Wu" /></span>
-				</div>
-			</section>
+        <div class="container">
+            <section id="about" class="section">
+                <div class="about-content">
+                    <div class="photo-container">
+                        <img src="wuru.JPG" alt="Kuang-Ru Wu" class="profile-photo">
+                    </div>
+                    <div class="about-text">
+                        <h2 class="section-title">About Me</h2>
+                        <div class="content-text">
+                            <p>
+                                I am interested in complex analysis, complex geometry, and partial differential equations. I received
+                                my Ph.D. degree from 
+                                <a href="https://www.math.purdue.edu/" class="link">Purdue University</a> 
+                                under the supervision of 
+                                <a href="https://www.math.purdue.edu/~lempert/" class="link">László Lempert</a>. 
+                                I was a postdoc at 
+                                <a href="https://www.math.sinica.edu.tw" class="link">Academia Sinica</a> 
+                                and then a visiting assistant professor at 
+                                <a href="https://www.math.nthu.edu.tw/" class="link">National Tsing Hua University</a>. 
+                                From August to December 2025, I will be a postdoc at the 
+                                <a href="https://erdoscenter.renyi.hu/" class="link">Erdős Center</a> 
+                                in Budapest. I am currently on the job market.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-			<!-- Publications and Preprints -->
-			<section id="2nd" class="main">
-				<header class="major">
-					<h2>Publications and Preprints</h2>
-				</header>
-				<ol id="referenceList"></ol>
-			</section>
+            <section id="publications" class="section">
+                <h2 class="section-title">Publications and Preprints</h2>
+                <div class="publications-list">
+                    <!-- Publications will be loaded dynamically by publications.js -->
+                </div>
+            </section>
 
-			<!-- Current Teaching -->
-			<!-- <section id="3rd" class="main">
-				<header class="major">
-					<h2>Current Teaching</h2>
-				</header>
-				<p>Calculus 2 for International Bachelor Program</p>
-			</section> -->
+            <section id="talks" class="section">
+                <h2 class="section-title">Invited Conference and Seminar Talks</h2>
+                <div class="talks-list">
+                    <!-- Talks will be loaded dynamically by talks.js -->
+                </div>
+            </section>
 
-			<!-- CV -->
-			<section class="main">
-				<a href="./cv (2025 Jan).pdf" class="button">CV Download</a>
-			</section>
-		</div>
+            <section id="cv" class="section">
+                <h2 class="section-title">CV</h2>
+                <div class="cv-content">
+                    <button class="cv-button" onclick="window.open('cv 2025 Aug.pdf', '_blank')">
+                        CV Download
+                    </button>
+                </div>
+            </section>
+        </div>
 
-		<!-- Footer -->
-		<footer id="footer">
-			<p class="copyright">Last updated 15 Aug 2025</p>
-		</footer>
+        <footer class="footer">
+            <p>Last updated 18 Aug 2025</p>
+        </footer>
+    </div>
 
-	</div>
-
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrollex.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
-	<script src="assets/js/references.js"></script>
+    <script src="publications.js"></script>
+    <script src="talks.js"></script>
+    <script src="script.js"></script>
 </body>
-
 </html>
