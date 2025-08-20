@@ -5,19 +5,19 @@ const talksData = {
             title: "Conference on Several Complex Variables--L² Estimates and Extensions--",
             location: "Tohoku University, Sendai",
             date: "September 2025",
-            website: "https://takahiro-ina.github.io/sendai2025/"
+            website: ""
         },
         {
             title: "Workshop on Cohomological and metric aspects of Hermitian and almost complex manifolds",
             location: "Rényi Institute of Mathematics",
             date: "September 2025",
-            website: "https://erdoscenter.renyi.hu/events/workshop-cohomological-and-metric-aspects-hermitian-and-almost-complex-manifolds"
+            website: ""
         },
         {
             title: "Several Complex Variables and Complex Geometry Conference dedicated to the mathematical work of Yum Tong Siu",
             location: "Academia Sinica",
             date: "January 2025",
-            website: "https://idv.sinica.edu.tw/mathas/202501SCV/SCV.html"
+            website: ""
         }
     ],
     2024: [
@@ -25,19 +25,19 @@ const talksData = {
             title: "Math Department Colloquium",
             location: "National Tsing Hua University",
             date: "October 2024",
-            website: "https://www.math.nthu.edu.tw/front/news/Lectures_and_seminars/seminar_event.php?ID=25515424fb39c91a3ea8beca58c215941a2807fb9c6faf9daf10d4cda24fba50&Sn=875"
+            website: ""
         },
         {
             title: "Young Mathematicians Workshop on SCV",
             location: "Osaka Metropolitan University",
             date: "August 2024",
-            website: "https://www2.math.kyushu-u.ac.jp/~kusakabe/YMWSCV2024/"
+            website: ""
         },
         {
             title: "Taiwanese Mathematical Society Annual Meeting, Special Sessions",
             location: "",
             date: "January 2024",
-            website: "https://2024tms.tms.org.tw/"
+            website: ""
         }
     ],
     2023: [
@@ -45,16 +45,16 @@ const talksData = {
             title: "The Fourth Taiwan-Japan Joint Conference on Differential Geometry",
             location: "NCTS",
             date: "November 2023",
-            website: "https://ncts.ntu.edu.tw/events_2_detail.php?nid=415"
+            website: ""
         },
         {
             title: "Complex analysis and geometry: celebrating the 70+1th birthday of László Lempert, short talk",
             location: "",
             date: "June 2023",
-            website: "https://conferences.renyi.hu/lempert70/program"
+            website: ""
         },
         {
-            title: "Geometry and Geometric Analysis Seminar,",
+            title: "Geometry and Geometric Analysis Seminar",
             location: "Purdue University",
             date: "April 2023",
             website: ""
@@ -71,13 +71,13 @@ const talksData = {
             title: "The 5th International Workshop, Geometry of Submanifolds and Integrable Systems",
             location: "Takamatsu Japan",
             date: "November 2022",
-            website: "https://www-math.ias.tokushima-u.ac.jp/~yasumoto/gsis20221126/"
+            website: ""
         },
         {
             title: "KIAS, seminar talk",
             location: "virtual",
             date: "November 2022",
-            website: "https://www.kias.re.kr/kias/activities/seminars/view.do?seqno=PGN1720221101-0002&schoolsCd=M&menuNo=402021&mjrcdnm=&sdate=2022-11-03&edate=&pageIndex=1"
+            website: ""
         },
         {
             title: "Rutgers Complex Analysis/Geometry Seminar",
@@ -89,7 +89,7 @@ const talksData = {
             title: "Taiwanese Mathematical Society Annual Meeting, Special Sessions",
             location: "",
             date: "January 2022",
-            website: "https://www.math.nthu.edu.tw/~2022TMS/invited-e.html"
+            website: ""
         }
     ],
     2021: [
@@ -223,7 +223,6 @@ function generateYearSectionHTML(year, talks) {
             <button class="year-toggle ${activeClass}" data-year="${year}">
                 <span class="chevron">${chevron}</span>
                 <span class="year-title">${year}</span>
-                <span class="talk-count">(${talkCount} talk${talkCount !== 1 ? 's' : ''})</span>
             </button>
             <ul class="talk-list ${hiddenClass}" data-year="${year}">
                 ${talksHtml}
