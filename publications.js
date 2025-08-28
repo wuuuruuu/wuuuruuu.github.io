@@ -70,7 +70,7 @@ const publications = [
         },
         collaborators: [
             {
-                name: "T. Darvas",
+                name: "Tamás Darvas",
                 website: "https://www.math.umd.edu/~tdarvas/"
             }
         ],
