@@ -1,6 +1,18 @@
 // Publications data
 const publications = [
     {
+        title: "New curvature characterization for the weighted Sasaki sphere",
+        journal: "",
+        collaborators: [
+            {
+                name: "Pak Tung Ho",
+                website: "https://sites.google.com/view/paktungho"
+            }
+        ],
+        arxivLink: "https://arxiv.org/abs/2508.15560",
+        arxivId: "2508.15560"
+    },
+    {
         title: "Mean curvature of direct image bundles",
         journal: "",
         collaborators: [],
