@@ -1,8 +1,15 @@
 // Publications data
 const publications = [
     {
-        title: "New curvature characterization for the weighted Sasaki sphere",
+        title: "Uniform RC-positivity of direct image bundles",
         journal: "",
+        collaborators: [],
+        arxivLink: "https://arxiv.org/abs/2512.10845",
+        arxivId: "2512.10845"
+    },
+    {
+        title: "New curvature characterization for the weighted Sasaki sphere",
+        journal: "To appear in Journal of Geometric Analysis",
         collaborators: [
             {
                 name: "Pak Tung Ho",
