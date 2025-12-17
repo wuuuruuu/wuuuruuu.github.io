@@ -2,6 +2,18 @@
 const talksData = {
     2025: [
         {
+            title: "Seminar",
+            location: "Sorbonne University",
+            date: "November 2025",
+            website: ""
+        }, 
+        {
+            title: "Seminar",
+            location: "University of Cologne",
+            date: "October 2025",
+            website: ""
+        },
+        {
             title: "Conference on Several Complex Variables--L² Estimates and Extensions--",
             location: "Tohoku University, Sendai",
             date: "September 2025",
