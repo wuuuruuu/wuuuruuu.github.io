@@ -1,6 +1,13 @@
 // Publications data
 const publications = [
     {
+        title: "Uniform weak RC-positivity and rational connectedness",
+        journal: "",
+        collaborators: [],
+        arxivLink: "https://arxiv.org/abs/2604.05981v1",
+        arxivId: "2604.05981v1"
+    },
+    {
         title: "Uniform RC-positivity of direct image bundles",
         journal: "",
         collaborators: [],
