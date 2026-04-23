@@ -21,14 +21,14 @@ const publications = [
     },
     {
         title: "Mean curvature of direct image bundles",
-        journal: "",
+        journal: "To appear in Mathematical Research Letters",
         collaborators: [],
         arxivLink: "https://arxiv.org/abs/2508.00820",
         arxivId: "2508.00820"
     },
     {
         title: "A potential theory for the Wess--Zumino--Witten equation in the space of Kähler potentials",
-        journal: "",
+        journal: "To appear in the Bulletin of the London Mathematical Society",
         collaborators: [],
         arxivLink: "https://arxiv.org/abs/2410.00710",
         arxivId: "2410.00710"
