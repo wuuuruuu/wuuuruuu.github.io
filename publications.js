@@ -16,7 +16,7 @@ const publications = [
     },
     {
         title: "New curvature characterization for the weighted Sasaki sphere",
-        journal: "To appear in Journal of Geometric Analysis",
+        journal: "Journal of Geometric Analysis, 36, No. 2, Paper No. 44, 8 p. (2026).",
         collaborators: [
             {
                 name: "Pak Tung Ho",
