@@ -1,5 +1,27 @@
 // Talks data organized by year
 const talksData = {
+    2026:[
+        {title: "Geometry and Geometric Analysis Seminar",
+            location: "Purdue University",
+            date: "May 2026",
+            website: ""
+        },
+        {title: "Seminar",
+            location: "USTC Shanghai Institute for Advanced Studies",
+            date: "April 2026",
+            website: ""
+        },
+        {title: "2026 Workshop in SCV and Complex Geometry",
+            location: "Westlake University",
+            date: "March 2026",
+            website: ""
+        },
+        {title: "Seminar on Complex Geometry",
+            location: "National Taiwan University",
+            date: "March 2026",
+            website: ""
+        }
+    ],
     2025: [
         {
             title: "Seminar",
