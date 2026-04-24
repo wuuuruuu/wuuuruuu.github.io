@@ -245,7 +245,7 @@ function generateTalkHTML(talk) {
 // Function to generate year section HTML
 function generateYearSectionHTML(year, talks) {
     const talkCount = talks.length;
-    const isCurrentYear = year === 2025; // 2025 is expanded by default
+    const isCurrentYear = year === 2026; // 2025 is expanded by default
     const chevron = isCurrentYear ? '▼' : '▶';
     const activeClass = isCurrentYear ? 'active' : '';
     const hiddenClass = isCurrentYear ? '' : 'hidden';
