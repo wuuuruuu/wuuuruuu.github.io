@@ -1,15 +1,27 @@
 // Publications data
 const publications = [
+     {
+        title: "RC-positivity of complex surfaces",
+        journal: "",
+        collaborators: [
+            {
+                name: "You-Cheng Chou",
+                website: "https://ycchou81.github.io/#home"
+            }
+        ],
+        arxivLink: "https://arxiv.org/abs/2609.33656",
+        arxivId: "arXiv:2609.33656"
+    },
     {
         title: "Uniform weak RC-positivity and rational connectedness",
-        journal: "",
+        journal: "To appear in Proceedings of the American Mathematical Society",
         collaborators: [],
         arxivLink: "https://arxiv.org/abs/2604.05981v1",
         arxivId: "2604.05981v1"
     },
     {
         title: "Uniform RC-positivity of direct image bundles",
-        journal: "",
+        journal: "To appear in Journal of the Mathematical Society of Japan",
         collaborators: [],
         arxivLink: "https://arxiv.org/abs/2512.10845",
         arxivId: "2512.10845"
@@ -35,7 +47,7 @@ const publications = [
     },
     {
         title: "A potential theory for the Wess--Zumino--Witten equation in the space of Kähler potentials",
-        journal: "To appear in the Bulletin of the London Mathematical Society",
+        journal: "Bulletin of the London Mathematical Society 58 (2026), no. 5, e70385.",
         collaborators: [],
         arxivLink: "https://arxiv.org/abs/2410.00710",
         arxivId: "2410.00710"
