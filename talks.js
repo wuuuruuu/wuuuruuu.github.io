@@ -1,6 +1,27 @@
 // Talks data organized by year
 const talksData = {
     2026:[
+        {title: "Recent Advances in CR Geometry and Related Topics",
+            location: "NYCU",
+            date: "December 2026",
+            website: ""
+        },
+        {title: "Complex and Algebraic Geometry Seminar in Southern Taiwan",
+            location: "National Cheng Kung University",
+            date: "November 2026",
+            website: ""
+        },
+        {title: "The 30th Taiwan Geometry Symposium",
+            location: "Tainan",
+            date: "November 2026",
+            website: ""
+        },
+        {title: "Math Department Colloquium",
+            location: "National Tsing Hua University",
+            date: "October 2026",
+            website: ""
+        },
+        
         {title: "Geometry and Geometric Analysis Seminar",
             location: "Purdue University",
             date: "May 2026",
